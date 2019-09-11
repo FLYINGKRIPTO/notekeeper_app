@@ -37,7 +37,7 @@ class NoteDetailState extends State<NoteDetail> {
                     );
                   }).toList(),
                   style: textStyle,
-                  value: 'Low',
+                  value: 'low',
                   onChanged: (valueSelectedByUser) {
                     setState(() {
                       debugPrint('user selected $valueSelectedByUser');
